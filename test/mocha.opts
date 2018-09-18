@@ -1,0 +1,2 @@
+--require ./test/load-rule-tester
+lib/**/*.spec.js
