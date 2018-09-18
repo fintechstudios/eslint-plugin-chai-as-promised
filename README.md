@@ -13,7 +13,7 @@ $ npm i eslint --save-dev
 Next, install `eslint-plugin-chai-as-promised`:
 
 ```
-$ npm install eslint-plugin-chai-as-promised --save-dev
+$ npm install @fintechstudios/eslint-plugin-chai-as-promised --save-dev
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-chai-as-promised` globally.
