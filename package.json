@@ -9,6 +9,9 @@
   ],
   "author": "Dylan Praul",
   "main": "lib/index.js",
+  "bugs": "https://github.com/fintechstudios/eslint-plugin-chai-as-promised/issues",
+  "repository": "https://github.com/fintechstudios/eslint-plugin-chai-as-promised",
+  "homepage": "https://github.com/fintechstudios/eslint-plugin-chai-as-promised",
   "scripts": {
     "test": "mocha",
     "preversion": "npm run test -- --single-run",
