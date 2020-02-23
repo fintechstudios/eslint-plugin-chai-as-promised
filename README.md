@@ -24,9 +24,9 @@ Add `@fintechstudios/chai-as-promised` to the plugins section of your `.eslintrc
 
 ```json
 {
-    "plugins": [
-        "@fintechstudios/eslint-plugin-chai-as-promised"
-    ]
+  "plugins": [
+    "@fintechstudios/eslint-plugin-chai-as-promised"
+  ]
 }
 ```
 
@@ -35,17 +35,21 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "@fintechstudios/chai-as-promised/[Rule]": 2
-    }
+  "rules": {
+    "@fintechstudios/chai-as-promised/no-unhandled-promises": 2
+  }
+}
+```
+
+Or, to just use the configuration above as is, you can simply add the
+following instead:
+
+```json
+{
+  "extends": ["plugin:@fintechstudios/chai-as-promised/recommended"]
 }
 ```
 
 ## Supported Rules
 
 * [`no-unhandled-promises`](./docs/rules/no-unhandled-promises.md): Must handle promises returned from chai-as-promised expressions
-
-
-
-
-
