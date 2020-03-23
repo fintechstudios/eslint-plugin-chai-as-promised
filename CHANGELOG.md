@@ -1,3 +1,11 @@
+# [3.0.0](https://github.com/fintechstudios/eslint-plugin-chai-as-promised/compare/v2.0.0...v3.0.0) (2020-03-23)
+
+### Features
+* no-await-in-condition: new rule to report use of await within chai-as-promised conditions
+
+### BREAKING CHANGES
+* Adds new rule to `recommended`
+
 # [2.0.0](https://github.com/fintechstudios/eslint-plugin-chai-as-promised/compare/v1.0.0...v2.0.0) (2020-02-25)
 
 ### Features
