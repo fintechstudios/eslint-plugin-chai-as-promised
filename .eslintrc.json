@@ -12,6 +12,14 @@
     "RuleTester": true
   },
   "rules": {
-    "indent": ["error", 2]
+    "strict": ["error"],
+    "indent": ["error", 2],
+
+    "semi": ["error"],
+    "prefer-const": ["error"],
+    "no-var": ["error"],
+    "prefer-destructuring": ["error"],
+    "object-shorthand": ["error"],
+    "quotes": ["error", "single"]
   }
 }

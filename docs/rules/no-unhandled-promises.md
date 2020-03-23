@@ -1,9 +1,8 @@
 # Must handle promises returned from chai-as-promised expressions (no-unhandled-promises)
 
-
 ## Rule Details
 
-Chai-as-promised makes chai calls return promises. These can easily be fogotten
+Chai-as-promised makes chai calls return promises. These can easily be forgotten
 about, leading to unhandled promises in your test suite. This rule checks for those and
 enforces using return or await.
 

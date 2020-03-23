@@ -36,7 +36,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "@fintechstudios/chai-as-promised/no-unhandled-promises": 2
+    "@fintechstudios/chai-as-promised/no-unhandled-promises": 2,
+    "@fintechstudios/chai-as-promised/no-await-in-condition": 2
   }
 }
 ```
@@ -52,4 +53,7 @@ following instead:
 
 ## Supported Rules
 
-* [`no-unhandled-promises`](./docs/rules/no-unhandled-promises.md): Must handle promises returned from chai-as-promised expressions
+* [`no-await-in-condition`](./docs/rules/no-await-in-condition.md): Must not use
+  await within chai-as-promised expressions
+* [`no-unhandled-promises`](./docs/rules/no-unhandled-promises.md): Must handle
+  promises returned from chai-as-promised expressions
