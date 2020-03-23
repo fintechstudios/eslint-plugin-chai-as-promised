@@ -1,6 +1,6 @@
 {
   "name": "@fintechstudios/eslint-plugin-chai-as-promised",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Prevent common problems when using chai-as-promised",
   "keywords": [
     "eslint",
