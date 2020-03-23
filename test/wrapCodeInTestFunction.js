@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports = function wrapCodeInTestFunction(code) {
-  return 'it(\'should test\', async function test() { ' + code + '; })';
+function wrapCodeInTestFunction(code) {
+  return `it('should test', async function test() { ${code}; })`;
 };
+
+module.exports = wrapCodeInTestFunction;
