@@ -1,4 +1,4 @@
-# Must not use await within chai-as-promised expressions (no-await-in-conditions)
+# Must not use await within chai-as-promised expressions (no-await-in-condition)
 
 ## Rule Details
 
