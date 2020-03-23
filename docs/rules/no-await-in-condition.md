@@ -50,4 +50,9 @@ it('should ...', async function() {
 it('should ...', async function() {
   return assert.isFulfilled(promise, "optional message");
 });
+
+it('should ...', async function() {
+  // This is ok since the chain is not a `chai-as-promised` one
+  return expect(await promise).to.be.true;
+});
 ```
