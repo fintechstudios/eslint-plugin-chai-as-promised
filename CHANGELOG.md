@@ -1,3 +1,8 @@
+# [3.0.2](https://github.com/fintechstudios/eslint-plugin-chai-as-promised/compare/v3.0.1...v3.0.2) (2020-03-30)
+
+#### Fixes
+* no-await-in-condition: avoid error on Promise.all without array (#15)
+
 # [3.0.1](https://github.com/fintechstudios/eslint-plugin-chai-as-promised/compare/v3.0.0...v3.0.1) (2020-03-23)
 
 #### Fixes
