@@ -3,12 +3,12 @@
 global.RuleTester = require('eslint').RuleTester;
 
 global.RuleTester.setDefaultConfig({
-  parserOptions: {
+  languageOptions: {
     ecmaVersion: 2017,
-  },
-  globals: {
-    expect: true,
-    assert: true,
+    globals: {
+      expect: true,
+      assert: true,
+    },
   },
 });
 

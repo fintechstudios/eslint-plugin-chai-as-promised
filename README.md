@@ -18,7 +18,47 @@ $ npm install @fintechstudios/eslint-plugin-chai-as-promised --save-dev
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@fintechstudios/eslint-plugin-chai-as-promised` globally.
 
-## Usage
+## Usage for eslint.config.js flat (ESLint >= 8)
+
+Add `@fintechstudios/chai-as-promised` to a plugins object within your `eslint.config.js` configuration file. You can omit the `eslint-plugin-` prefix:
+
+```js
+import chaiAsPromised from '@fintechstudios/chai-as-promised';
+
+export default [
+  {
+    "plugins": {
+      "@fintechstudios/eslint-plugin-chai-as-promised": chaiAsPromised
+    }
+  }
+];
+```
+
+
+Then configure the rules you want to use under the rules section.
+
+```json
+{
+  "rules": {
+    "@fintechstudios/chai-as-promised/no-unhandled-promises": 2,
+    "@fintechstudios/chai-as-promised/no-await-in-condition": 2
+  }
+}
+```
+
+Or, to just use the configuration above as is, you can simply add the
+following instead:
+
+```js
+import chaiAsPromised from '@fintechstudios/chai-as-promised';
+
+export default [
+  chaiAsPromised.configs['flat/recommended'];
+];
+```
+
+
+## Usage for .eslintrc (ESLint < 9)
 
 Add `@fintechstudios/chai-as-promised` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
